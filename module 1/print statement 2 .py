@@ -1,0 +1,5 @@
+print("welcome back")
+print(3022)
+print("i am Aggrim\n")
+print("welcome to my home", 55)
+print("it is the end", end="$")
