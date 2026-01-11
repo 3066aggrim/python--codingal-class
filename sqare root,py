@@ -1,0 +1,9 @@
+num = float(input("Enter a number: "))
+
+if num < 0:
+    print("Square root of a negative number is not real.")
+else:
+    guess = num / 2
+    for _ in range(10):
+        guess = (guess + num / guess) / 2
+    print("Square root is:", guess)
