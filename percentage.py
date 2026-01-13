@@ -8,13 +8,13 @@ english = int(input("english :"))
 
 science = int(input("science :"))
 
-hindi = int(input("hindi :"))
+nepali = int(input("nepali :"))
 
 # Let's calculate the percentage of marks
 
-sum = math + english + science + hindi
+sum = math + english + science + nepali
 
-print("sum of math,english,science and hindi:", sum)
+print("sum of math,english,science and nepali:", sum)
 
 perc = (sum/400)*100
 

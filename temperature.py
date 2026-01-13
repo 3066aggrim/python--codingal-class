@@ -1,4 +1,4 @@
-temperature = int(input("enter the temperature"))
+temperature = float(input("enter the temperature 0 to 30 degree"))
 if 1 <= temperature <= 5:
     print("Wear heavy winter clothes, coat, gloves, and cap")
     print("its to cold🥶!")
@@ -20,3 +20,6 @@ if 20 <= temperature <= 25:
 if 25 <= temperature <= 30:
     print("its hot weather🔆")
     print("wear light clothes and stand in front of the fan")
+
+elif temperature > 30 or temperature < 0:
+    print(" your input is out of our website range")
