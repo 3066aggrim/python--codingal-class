@@ -10,4 +10,4 @@ sum2 = sum-(wrong_number - correct_number)
 print("Corrested sum(sum-(wrong_number-correct_numbber)):", sum2)
 
 mean2 = sum2/total_number
-print(mean1)
+print(mean2)
