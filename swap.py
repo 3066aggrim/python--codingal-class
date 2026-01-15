@@ -1,8 +1,10 @@
 a = 5
 b = 10
-c = 7
+c = a
+a = b
+b = c
 
 
-print("a =", b)
-print("b=", c)
-print("c=", a)
+print("a =", a)
+print("b=", b)
+print("c=", c)
