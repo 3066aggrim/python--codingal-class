@@ -1,5 +1,5 @@
-weight = float(input("insert your weight in kg"))
-height = float(input("insert your height in cm"))
+weight = float(input("insert your weight in kg:"))
+height = float(input("insert your height in cm:"))
 
 BMI = weight/(height/100)**2
 print("your BMI is", BMI)
@@ -14,10 +14,10 @@ elif BMI <= 29.9:
     print("youre overweight")
 
 elif BMI <= 34.9:
-    print("you are severy overweight")
+    print("you are severly overweight")
 
 elif BMI <= 39.9:
     print("you are obese")
 
 else:
-    print("you are severy obese")
+    print("you are severly obese")
