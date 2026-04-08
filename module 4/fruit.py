@@ -1,4 +1,4 @@
-numbers = int(input("please enter a range of numbers"))
+
 user_value = int(input("Enter a number: "))
 
 odd_numbers = []
