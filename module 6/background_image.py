@@ -19,7 +19,7 @@ penguin_rect = penguin_image.get_rect(
 
 # Initialize font, render text, and set text position
 
-text = pygame.font.Font(None, 36).render('Hello World ', True,
+text = pygame.font.Font(None, 36).render('Hello World ', False,
 
                                          pygame.Color('black'))
 
