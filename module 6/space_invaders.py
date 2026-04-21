@@ -127,7 +127,6 @@ while running:
             enemyX_change[i] *= -1
             enemyY[i] += enemyY_change[i]
 
-        # Collision Check
         if isCollision(enemyX[i], enemyY[i], bulletX, bulletY):
             bulletY = PLAYER_START_Y
             bullet_state = "ready"
@@ -137,7 +136,6 @@ while running:
 
         enemy(enemyX[i], enemyY[i], i)
 
-    # Bullet Movement
     if bulletY <= 0:
         bulletY = PLAYER_START_Y
         bullet_state = "ready"
